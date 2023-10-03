@@ -1,0 +1,22 @@
+{
+    "name": "dwes/tarea5",
+    "description": "tarea5",
+    "type": "project",
+    "license": "gpl",
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "philo/laravel-blade": "^3.1",
+        "fakerphp/faker": "^1.21",
+        "milon/barcode": "^6.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.30"
+        }
+    }
+}

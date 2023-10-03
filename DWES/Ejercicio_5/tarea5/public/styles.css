@@ -1,0 +1,88 @@
+/* *************************** */
+/*  Estilos y clases genéricas */
+/* *************************** */
+
+body {
+	margin:0 auto;  /* Centramos página */
+    margin-top:5px;
+	width:1000px;   /* Le damos ancho */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: coral;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+thead {
+    background-color: black;
+}
+
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align:middle;
+}
+
+.boton {
+    color: white;
+    background-color:green; 
+}
+
+/* ************************** */
+/* Estilos pagina instalacion */
+/* ************************** */
+
+#instalacion{
+    text-align: center;
+}
+
+/* ************************ */
+/* Estilos pagina jugadores */
+/* ************************ */
+
+#listado {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#table {
+    width: 700px;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+#barras {
+    padding-left: 30px;
+}
+
+/* *************************** */
+/* Estilos vista crear Jugador */
+/* *************************** */
+
+#crear {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#btcrear {
+    background-color:rgb(64, 81, 233);
+    color: white;
+}
+
+#btlimpiar {
+    background-color:rgb(74, 180, 25);
+    color: white;
+}
+
+#btvolver {
+    background-color:rgb(67, 143, 230);
+    color: white;
+}
+
+#btgenerar {
+    background-color:rgb(93, 100, 89);
+    color: white;
+}
